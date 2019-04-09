@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: green;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: orange;
+    font-family: 'Dokdo', cursive;
+
+}
+nav a:first-child{
+    color: black;
+    font-size: 25px;
+}
+nav a:nth-child(3){
+    color: brown;
+}
